@@ -1,0 +1,14 @@
+#sender_email {
+    border: 1px solid #ced4da;
+    transition: border-color 0.2s ease-in-out;
+}
+
+/* Red border when invalid */
+#sender_email.invalid {
+    border-color: #dc3545;
+}
+
+/* Optional: Green border when valid */
+#sender_email.valid {
+    border-color: #28a745;
+}
