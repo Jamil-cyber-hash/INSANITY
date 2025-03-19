@@ -1,0 +1,19 @@
+body {
+    background-image: url('imaages/img.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Ensures text is visible on dark backgrounds */
+}
+
+.content {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Dark background for readability */
+    border-radius: 10px;
+}
+
+.btn {
+    margin: 5px;
+}

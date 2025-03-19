@@ -54,9 +54,9 @@
                         Services
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                        <li><a class="dropdown-item" href="services.php">Burial Services</a></li>
-                        <li><a class="dropdown-item" href="services.php">Cremation Services</a></li>
-                        <li><a class="dropdown-item" href="services.php">Memorial Planning</a></li>
+                        <li><a class="dropdown-item" href="burial_services.php">Burial Services</a></li>
+                        <li><a class="dropdown-item" href="cremation.php">Cremation Services</a></li>
+                        <li><a class="dropdown-item" href="memorial.php">Memorial Planning</a></li>
                     </ul>
                 </li>
 
@@ -66,8 +66,8 @@
                         Resources
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
-                        <li><a class="dropdown-item" href="#grief">Grief Support</a></li>
-                        <li><a class="dropdown-item" href="#faq">FAQs</a></li>
+                        <li><a class="dropdown-item" href="grief_support.php">Grief Support</a></li>
+                        <li><a class="dropdown-item" href="faq.php">FAQs</a></li>
                     </ul>
                 </li>
 
