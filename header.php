@@ -31,7 +31,7 @@
                         Obituaries
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="obituariesDropdown">
-                        <li><a class="dropdown-item" href="#recent">Recent Obituaries</a></li>
+                        <li><a class="dropdown-item" href="PANG.php#obituaries">Recent Obituaries</a></li>
                         <li><a class="dropdown-item" href="#search">Search Obituaries</a></li>
                         <li><a class="dropdown-item" href="form.php">Request Obituary</a></li>
                     </ul>

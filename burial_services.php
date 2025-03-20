@@ -18,7 +18,7 @@
 
     <div class="row mt-4">
         <div class="col-md-6">
-            <img src="images/burial.jpg" alt="Burial Service" class="img-fluid rounded">
+            <img src="imaages/burial.jpg" alt="Burial Service" class="img-fluid rounded">
         </div>
         <div class="col-md-6">
             <h4>Traditional Burial</h4>
