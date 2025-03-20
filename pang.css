@@ -40,19 +40,21 @@
     transform: translateY(0);
 }
 
-/* Ensure body and html fill the whole height */
-html, body {
-    height: 100%;
-    margin: 0;
-}
 
-/* Make the content fill the available space */
-body {
-    display: flex;
-    flex-direction: column;
-}
 
-/* Push footer to the bottom */
-footer {
-    margin-top: auto;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

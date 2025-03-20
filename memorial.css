@@ -1,0 +1,61 @@
+
+.faq-section {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.accordion-item {
+    border: none;
+}
+
+.accordion-button {
+    background-color: #e9ecef;
+    color: #495057;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-button:hover {
+    background-color: #dee2e6;
+}
+
+.accordion-body {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+
+.testimonials {
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 40px 0;
+}
+
+.testimonials p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Info Section */
+.info-section {
+    background-color: #f1f1f1;
+    padding: 40px 0;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #212529;
+}
+
+/* Button Animation */
+.animate-btn {
+    transition: transform 0.3s ease;
+}
+
+.animate-btn:hover {
+    transform: translateY(-3px);
+}
