@@ -55,7 +55,7 @@
             $conn = new mysqli("localhost", "root", "", "funeral_service");
 
             // Fetch only APPROVED obituaries
-            $result = $conn->query( "SELECT * FROM obituaries WHERE status = 'Approved' ORDER BY date_of_passing DESC");
+            $result = $conn->query("SELECT * FROM obituaries WHERE status = 'approved' ORDER BY date_of_passing DESC LIMIT 4");
 
             while ($row = $result->fetch_assoc()) {
                 $full_name = $row['deceased_first_name'] . ' ' . 
