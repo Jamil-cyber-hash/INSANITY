@@ -7,8 +7,8 @@
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="css/pang.css">
-<link rel="stylesheet" href="css/form.css">
+<link rel="stylesheet" href="pang.css">
+<link rel="stylesheet" href="form.css">
 
 </head>
 <body>
@@ -32,8 +32,8 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="obituariesDropdown">
                         <li><a class="dropdown-item" href="PANG.php#obituaries">Recent Obituaries</a></li>
-                        <li><a class="dropdown-item" href="search_obituaries.php">Search Obituaries</a></li>
-                       
+                        <li><a class="dropdown-item" href="#search">Search Obituaries</a></li>
+                        <li><a class="dropdown-item" href="form.php">Request Obituary</a></li>
                     </ul>
                 </li>
 
@@ -43,8 +43,8 @@
                         Pre-Plan
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="preplanDropdown">
-                        <li><a class="dropdown-item" href="pre-plan.php">Why Pre-Plan?</a></li>
-                        <li><a class="dropdown-item" href="submit_preplan.php">Pre-Plan Options</a></li>
+                        <li><a class="dropdown-item" href="#preplan-info">Why Pre-Plan?</a></li>
+                        <li><a class="dropdown-item" href="#preplan">Pre-Plan Options</a></li>
                     </ul>
                 </li>
 
@@ -73,7 +73,7 @@
 
                 <!-- Inquiry Link -->
                 <li class="nav-item">
-                    <a class="nav-link" href="inquiry.php">Inquiry</a>
+                    <a class="nav-link" href="#inquiry">Inquiry</a>
                 </li>
 
                 <!-- Contact Link -->

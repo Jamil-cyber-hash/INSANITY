@@ -11,8 +11,7 @@
 <body>
 
 <?php include 'header.php'; ?>
-<br>
-<br>
+
 <!-- Page Header -->
 <section class="page-header">
     <div class="container text-center">

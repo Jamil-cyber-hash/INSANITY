@@ -3,7 +3,5 @@
         <span>© 2025 Your Funeral Service. All Rights Reserved.</span>
     </div>
 </footer>
-
-
 </body>
 </html>

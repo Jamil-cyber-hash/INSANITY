@@ -32,7 +32,7 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="obituariesDropdown">
                         <li><a class="dropdown-item" href="PANG.php#obituaries">Recent Obituaries</a></li>
-                        <li><a class="dropdown-item" href="search_obituaries.php">Search Obituaries</a></li>
+                        <li><a class="dropdown-item" href="#search">Search Obituaries</a></li>
                        
                     </ul>
                 </li>
@@ -73,7 +73,7 @@
 
                 <!-- Inquiry Link -->
                 <li class="nav-item">
-                    <a class="nav-link" href="inquiry.php">Inquiry</a>
+                    <a class="nav-link" href="#inquiry">Inquiry</a>
                 </li>
 
                 <!-- Contact Link -->

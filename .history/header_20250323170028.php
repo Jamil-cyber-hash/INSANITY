@@ -32,8 +32,8 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="obituariesDropdown">
                         <li><a class="dropdown-item" href="PANG.php#obituaries">Recent Obituaries</a></li>
-                        <li><a class="dropdown-item" href="search_obituaries.php">Search Obituaries</a></li>
-                       
+                        <li><a class="dropdown-item" href="#search">Search Obituaries</a></li>
+                        <li><a class="dropdown-item" href="form.php">Request Obituary</a></li>
                     </ul>
                 </li>
 
@@ -43,8 +43,8 @@
                         Pre-Plan
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="preplanDropdown">
-                        <li><a class="dropdown-item" href="pre-plan.php">Why Pre-Plan?</a></li>
-                        <li><a class="dropdown-item" href="submit_preplan.php">Pre-Plan Options</a></li>
+                        <li><a class="dropdown-item" href="#preplan-info">Why Pre-Plan?</a></li>
+                        <li><a class="dropdown-item" href="#preplan">Pre-Plan Options</a></li>
                     </ul>
                 </li>
 
@@ -73,7 +73,7 @@
 
                 <!-- Inquiry Link -->
                 <li class="nav-item">
-                    <a class="nav-link" href="inquiry.php">Inquiry</a>
+                    <a class="nav-link" href="#inquiry">Inquiry</a>
                 </li>
 
                 <!-- Contact Link -->

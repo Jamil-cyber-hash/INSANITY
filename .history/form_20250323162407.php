@@ -14,7 +14,76 @@
 <body>
 
 <!-- Header -->
-<?php include 'header.php'; ?>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="pang.php"><img src="imaages\logo.png" alt="" class="logo"><img src="imaages\logo2.png" alt="" class="logo2"></a>
+
+
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <!-- Obituaries Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="obituariesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Obituaries
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="obituariesDropdown">
+                        <li><a class="dropdown-item" href="PANG.php#obituaries ">Recent Obituaries</a></li>
+                        <li><a class="dropdown-item" href="#search">Search Obituaries</a></li>
+                        <li><a class="dropdown-item" href="form.php">Request Obituary</a></li>
+                    </ul>
+                </li>
+
+                <!-- Pre-Plan Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="preplanDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pre-Plan
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="preplanDropdown">
+                        <li><a class="dropdown-item" href="#preplan-info">Why Pre-Plan?</a></li>
+                        <li><a class="dropdown-item" href="#preplan">Pre-Plan Options</a></li>
+                    </ul>
+                </li>
+
+                <!-- Services Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="services.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <li><a class="dropdown-item" href="burial_services.php">Burial Services</a></li>
+                        <li><a class="dropdown-item" href="cremation.php">Cremation Services</a></li>
+                        <li><a class="dropdown-item" href="memorial.php">Memorial Planning</a></li>
+                    </ul>
+                </li>
+
+                <!-- Resources Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Resources
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                        <li><a class="dropdown-item" href="#grief">Grief Support</a></li>
+                        <li><a class="dropdown-item" href="#faq">FAQs</a></li>
+                    </ul>
+                </li>
+
+                <!-- Inquiry Link -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#inquiry">Inquiry</a>
+                </li>
+
+                <!-- Contact Link -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
 <div class="container mt-5" id="add-obituary">
     <div class="section-title"><h1>Submit an Obituary</h1></div>
