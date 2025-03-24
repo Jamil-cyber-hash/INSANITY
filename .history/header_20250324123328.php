@@ -42,7 +42,7 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="preplanDropdown">
                         <li><a class="dropdown-item" href="pre-plan.php">Why Pre-Plan?</a></li>
-                        <li><a class="dropdown-item" href="pre-plan.php#prePlanForm">Pre-Plan Options</a></li>
+                        <li><a class="dropdown-item" href="submit_preplan.php">Pre-Plan Options</a></li>
                     </ul>
                 </li>
 
@@ -76,7 +76,7 @@
 
                 <!-- Contact Link -->
                 <li class="nav-item">
-                    <a class="nav-link" href="PANG.php#contact">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>

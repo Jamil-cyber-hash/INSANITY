@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         // ✅ Insert into `obituaries` table
-        $stmt = $conn->prepare("INSERT INTO obituaries (name, sender_email, deceased_first_name, deceased_middle_name, deceased_last_name, gender, date_of_passing, description, image, status) 
+        $stmt = $conn->prepare("INSERT INTO obituaries (name, email, deceased_first_name, deceased_middle_name, deceased_last_name, gender, date_of_passing, description, image, status) 
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'Pending')");
         $stmt->bind_param("sssssssss", $name, $email, $first_name, $middle_name, $last_name, $gender, $date_of_passing, $description, $image);
 

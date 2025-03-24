@@ -10,8 +10,6 @@
 <link rel="stylesheet" href="css/form.css">
 </head>
 <body>
-
-
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
         <a class="navbar-brand" href="PANG.php"><img src="imaages\logo.png" alt="" class="logo"><img src="imaages\logo2.png" alt="" class="logo2"></a>
@@ -42,7 +40,7 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="preplanDropdown">
                         <li><a class="dropdown-item" href="pre-plan.php">Why Pre-Plan?</a></li>
-                        <li><a class="dropdown-item" href="pre-plan.php#prePlanForm">Pre-Plan Options</a></li>
+                        <li><a class="dropdown-item" href="submit_preplan.php">Pre-Plan Options</a></li>
                     </ul>
                 </li>
 
@@ -76,7 +74,7 @@
 
                 <!-- Contact Link -->
                 <li class="nav-item">
-                    <a class="nav-link" href="PANG.php#contact">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>

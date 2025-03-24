@@ -37,7 +37,7 @@
                 <li>🌸 Eco-Friendly Cremation Choices</li>
                 <li>🌸 Support with Ashes Placement</li>
             </ul>
-            <a href="inquiry.php" class="btn btn-secondary mt-3 animate-btn">Learn More</a>
+            <a href="#inquiry" class="btn btn-secondary mt-3 animate-btn">Learn More</a>
         </div>
     </div>
 </div>

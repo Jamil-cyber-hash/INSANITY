@@ -114,7 +114,7 @@
 
 <!-- Info/Carousel Section -->
 <!-- MAP + LOCATION INFO -->
-<div class="container-fluid mt-5" >
+<div class="container-fluid mt-5" id="contact">
     <div class="row">
         <!-- Map Section -->
         <div class="col-md-9">
@@ -130,7 +130,7 @@
         </div>
 
         <!-- Info/Carousel Section -->
-        <div class="col-md-3 bg-dark text-white p-4" id="contact">
+        <div class="col-md-3 bg-dark text-white p-4">
             <h5 class="mb-3" style="text-align: center;">OUR LOCATIONS</h5>
             <div id="infoCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">

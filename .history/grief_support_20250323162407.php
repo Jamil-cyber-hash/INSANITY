@@ -11,8 +11,6 @@
 </head>
 <body>
 <?php include 'header.php'; ?>
-<br>
-<br><br>
 <div class="content text-center">
     <h1 class="text-primary">Grief Support</h1>
     <p>We understand that grieving is a personal journey, and we're here to help.</p>
