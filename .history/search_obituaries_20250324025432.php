@@ -28,18 +28,17 @@ $totalPages = ceil($totalRow['total'] / $limit);
 $sql = "SELECT * FROM obituaries $searchQuery ORDER BY submitted_at DESC LIMIT $limit OFFSET $offset";
 $result = $conn->query($sql);
 ?>
-
 <style>
     body {
         display: flex;
         flex-direction: column;
         min-height: 100vh; /* Full screen height */
     }
+
     .container {
         flex-grow: 1; /* Makes sure the footer stays down */
     }
 </style>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,7 +55,7 @@ $result = $conn->query($sql);
     <h2 class="text-center mb-4">Obituaries</h2>
 
     <!-- Search Form -->
-    <form method="GET" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" class="mb-4">
+    <form method="GET" action="obituaries.php" class="mb-4">
         <div class="input-group">
             <input type="text" name="search" class="form-control" placeholder="Search by name..." value="<?php echo htmlspecialchars($search); ?>">
             <button type="submit" class="btn btn-primary">Search</button>
@@ -70,7 +69,9 @@ $result = $conn->query($sql);
                     <div class="card">
                         <img src="uploads/<?php echo htmlspecialchars($row['image']); ?>" class="card-img-top" alt="Obituary Image">
                         <div class="card-body">
-                            <h5 class="card-title"><?php echo htmlspecialchars($row['deceased_first_name'] . " " . $row['deceased_middle_name'] . " " . $row['deceased_last_name']); ?></h5>
+                            <h5 class="card-title">
+                                <?php echo htmlspecialchars($row['deceased_first_name'] . " " . $row['deceased_middle_name'] . " " . $row['deceased_last_name']); ?>
+                            </h5>
                             <p class="card-text"><strong>Date of Passing:</strong> <?php echo htmlspecialchars($row['date_of_passing']); ?></p>
                             <p class="card-text"><?php echo htmlspecialchars($row['description']); ?></p>
                         </div>
@@ -78,7 +79,7 @@ $result = $conn->query($sql);
                 </div>
             <?php endwhile; ?>
         <?php else: ?>
-            <!-- Message when no results are found -->
+            <!-- Show this if no results are found -->
             <div class="col-12 text-center">
                 <p class="alert alert-warning">No obituaries found.</p>
             </div>
@@ -86,7 +87,6 @@ $result = $conn->query($sql);
     </div>
 
     <!-- Pagination -->
-    <?php if ($totalPages > 1): ?>
     <nav>
         <ul class="pagination justify-content-center">
             <?php if ($page > 1): ?>
@@ -108,7 +108,6 @@ $result = $conn->query($sql);
             <?php endif; ?>
         </ul>
     </nav>
-    <?php endif; ?>
 
 </div>
 
