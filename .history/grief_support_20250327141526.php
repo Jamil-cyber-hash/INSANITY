@@ -7,10 +7,7 @@
     <title>Grief Support</title>
     <link rel="stylesheet" href="grief.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-
-</head>
-
-<style>
+    <style>
     body {
     display: flex;
     flex-direction: column;
@@ -20,7 +17,7 @@
 .container {
     flex-grow: 1; /* Makes sure the footer stays down */
 }
-</style>
+</head>
 <body>
 <?php include 'header.php'; ?>
 <br>

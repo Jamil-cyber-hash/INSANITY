@@ -9,18 +9,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
 </head>
-
-<style>
-    body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Full screen height */
-}
-
-.container {
-    flex-grow: 1; /* Makes sure the footer stays down */
-}
-</style>
 <body>
 <?php include 'header.php'; ?>
 <br>
